@@ -6,6 +6,45 @@
 </head>
 <main>
 <body>
+    <p>
+        If you have any questions please fill in the contact form.
+    </p>
+    <form>
+        <fieldset>
+            <legend>Personal Details</legend>
+
+            <label for="firstname">First Name</label>
+            <input id="firstname" type="text">
+
+            <label for="lastname">Last Name</label>
+            <input id="lastname" type="text">
+
+            <label for="email">Your Email</label>
+            <input id="email" type="email">
+
+        </fieldset>
+        <fieldset>
+            <legend>Reason for Contact</legend>
+
+            <select name="device">
+	        <option value="generalenquiry" selected>General Enquiry</option>
+	        <option value="information">Looking for Information</option>
+	        <option value="hiring">Looking to Hire</option>
+            <option value="other">Other</option>
+            </select>
+
+            <label for="ifother">If other, please enter here</label>
+            <input id="ifother" type="text">
+
+        </fieldset>
+        <fieldset>
+            <legend>Email</legend>
+
+            <label for="notes">Message here:</label>
+            <textarea id="notes"></textarea>
+        </fieldset>
+        <button type="submit">Submit</button>
+    </form>
 </body>
 </main>
 <footer></footer>
